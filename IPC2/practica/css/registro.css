@@ -1,0 +1,93 @@
+body{
+    margin:0;
+}
+
+.navegador{
+    background-color:  #1e8449;
+    padding: 15px;
+    transition: 0.55s;
+}
+
+.navegador a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-right: 25px;
+    font-weight: bold;
+}
+
+.navegador:hover{
+    background-color: #239b56;
+}
+
+.titulo{
+    background-color: #abb2b9 ;
+    height: 300px;
+}
+
+.titulo h1{
+    color: #1a5276;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*FORMULARIO*/
+.formulario .contenido-form{
+    background-color: #808b96;
+    border-bottom: 3px solid #1b4f72;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+}
+
+.formulario form{
+    padding: 10px;
+    background-color:  #808b96 ;
+    margin-top: -200px;
+    width: 600px;
+}
+
+.formulario form label{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #1a5276;
+    font-weight: bold;
+}
+
+.formulario form .input-text{
+    color: white;
+    margin-top: 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 90%;
+    font-size: 17px;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.boton input{
+    width: 250px;
+    height: 40px;
+    background-color:  #1a5276;
+    border:none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.boton input:hover{
+    background-color:  #2874a6;
+}

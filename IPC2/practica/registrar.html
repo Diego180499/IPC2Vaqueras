@@ -5,44 +5,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="./css/registro.css">
     <title>Document</title>
 </head>
 
 <body>
-    <div>
+    <div class="navegador">
         <nav>
             <a href="login.html">Regresar</a>
             <a href="index.html">Ir al inicio</a>
         </nav>
     </div>
-    <h1>Regístrate</h1>
-    <form>
-        <label>Nombre</label>
-        <br/>
-        <input type="text" placeholder="Ingresa tu nombre">
-        <br/><br/>
-        <label>Apellido</label>
-        <br/>
-        <input type="text" placeholder="Ingresa tu Apellido">
-        <br/><br/>
-        <label>DPI</label>
-        <br/>
-        <input type="text" placeholder="Ingresa tu DPI">
-        <br/><br/>
-        <label>Usuario</label>
-        <br/>
-        <input type="text" placeholder="Ingresa tu nuevo usuario">
-        <br/><br/>
-        <label>Contraseña</label>
-        <br/>
-        <input type="text" placeholder="Ingresa tu nueva contraseña">
-        <br/><br/>
-        <label>Confirma tu Contraseña</label>
-        <br/>
-        <input type="text" placeholder="Confirma tu contraseña">
-        <br/><br/>
-        <input type="submit" value="Enviar">
-    </form>
+    <div class="titulo">
+        <h1>Regístrate</h1>
+    </div>
+    <div class="formulario">
+        <div class="contenido-form">
+            <form>
+                <label>Nombre</label>
+                <br />
+                <input id="nombre" class="input-text" type="text" placeholder="Ingresa tu nombre">
+                <br /><br />
+                <label>Apellido</label>
+                <br />
+                <input id="apellido" class="input-text" type="text" placeholder="Ingresa tu Apellido">
+                <br /><br />
+                <label>DPI</label>
+                <br />
+                <input id="dpi" class="input-text" type="text" placeholder="Ingresa tu DPI">
+                <br /><br />
+                <label>Usuario</label>
+                <br />
+                <input id="usuario" class="input-text" type="text" placeholder="Ingresa tu nuevo usuario">
+                <br /><br />
+                <label>Contraseña</label>
+                <br />
+                <input id="contraseña1" class="input-text" type="password" placeholder="Ingresa tu nueva contraseña">
+                <br /><br />
+                <label>Confirma tu Contraseña</label>
+                <br />
+                <input id="contraseña2" class="input-text" type="password" placeholder="Confirma tu contraseña">
+                <br /><br />
+            </form>
+            <div class="boton">
+                <input id="button" type="submit" value="Enviar">
+            </div>
+        </div>
+    </div>
 </body>
+<script src="./js/registro.js"></script>
 
 </html>

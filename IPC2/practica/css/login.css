@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+}
+
+.navegador{
+    display: flex;
+    background-color: #2C3E50;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.navegador a{
+    margin-right: 30px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.navegador a:hover{
+    font-size: 20px;
+}
+
+.navegador:hover{
+    background-color: #566573;
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #006600 ;
+    height: 300px;
+}
+
+.titulo h1{
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+/*FORMULARIO*/
+
+.formulario .contenido-form{
+    background-color: #aeb6bf;
+    margin-top: -200px;
+    border-bottom: 2px solid darkgreen;
+}
+.formulario{
+    display: grid;
+    justify-content: center;
+    height: 200px;
+    border-radius: 3%;
+}
+
+.formulario form{
+    margin-top: 10px;
+    background-color:  #aeb6bf;
+    width: 600px;
+    padding: 10px;
+}
+
+.formulario form .input-text{
+    margin-top: 5px;
+    border: none;
+    background-color: transparent;
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    border-bottom: 2px solid darkgreen;
+}
+
+.formulario form label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*TODO SOIBRE EL BOTON*/
+.boton{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.boton button{
+    width: 300px;
+    height: 50px;
+    background-color: darkgreen;
+    border: 5px solid green;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.5s;
+}
+
+.boton button:hover{
+    background-color: green;
+}
+
+/*-----------------------*/
+
+
+.nueva-cuenta{
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+}
+
+
+.nueva-cuenta label{
+    text-align: center;
+    color: #2C3E50;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.nueva-cuenta nav a{
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nueva-cuenta nav a:hover{
+    border-bottom: 1px solid black;
+}
